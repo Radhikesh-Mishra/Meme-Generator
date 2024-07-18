@@ -1,0 +1,137 @@
+.draggable-container {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .draggable-content {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .editable-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .editable-text {
+    cursor: pointer;
+    word-break: break-word;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 600px) {
+    .editable-input {
+      max-width: 100%;
+      font-size: 0.875rem;
+    }
+  
+    .editable-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .editable-input {
+      max-width: 100%;
+      font-size: 1rem;
+    }
+  
+    .editable-text {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (min-width: 901px) {
+    .editable-input {
+      max-width: 100%;
+      font-size: 1.25rem;
+    }
+  
+    .editable-text {
+      font-size: 1.5rem;
+    }
+  }
+
+  .meme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .meme {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .meme-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .btn {
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-blue {
+    background-color: blue;
+  }
+  
+  .btn-green {
+    background-color: green;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 600px) {
+    .meme {
+      width: 100%;
+      padding: 0.5rem;
+    }
+  
+    .meme-image {
+      max-width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.25rem 0;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .meme {
+      width: 100%;
+    }
+  
+    .meme-image {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 901px) {
+    .meme {
+      max-width: 400px;
+    }
+  
+    .meme-image {
+      max-width: 300px;
+    }
+  }
+  
